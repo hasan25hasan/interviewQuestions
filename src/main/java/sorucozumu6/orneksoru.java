@@ -12,7 +12,7 @@ public class orneksoru {
 
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
-        System.out.println("Lütfen bir dizi giriniz");
+        System.out.println("Lütfen gireceginiz dizinin elaman sayısını  giriniz");
         int dizi= scan.nextInt();
         int [] array=new int[dizi];
         for (int i = 0; i< dizi; i++) {
